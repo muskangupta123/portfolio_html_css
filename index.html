@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script>   
+    function myFunction() {   
+    window.alert("Your message has been sent");  
+    }   
+    </script>   
+
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">MY PORTFOLIO</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#education">Education</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-image">
+      <br>
+      <br>
+      <br>
+            <img class="image"  src="C:\Users\gkmus\Pictures\photo.jpg" width="200px" height="200px" >
+    </div>
+    <div class="home-content">
+      <h1><br><br>Hi, I am <br>Muskan Gupta</h1>
+      
+    </div>
+  </section>
+  <section class="about" id="about">
+    
+    <div class="about-content">
+      <h1><br><br><br><br><u>About Me:</u></h1>
+      <h2><br><br>Hi, My name is Muskan Gupta</h2>
+      <p>I am a Computer Science Student. I am currently pursuing my Master of Computer Applications from Christ (Deemed-to-be) University, Central Campus, Bangalore. This is my Portfolio.</p>
+      <br><br><b><u>Skills:</u></b><br>
+      <ol type="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+        </ol>
+      
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="education-content">
+      <h1><br><br><u>Education Qualification:</u></h1>
+      <br><br><ol type="1">
+        <li><b><u>10th:</u></b> D.A.V. Sushil Kedia Vishwa Bharati,<br>Kathmandu, Nepal</li><br>
+        <li><b><u>12th:</u></b> D.A.V. Sushil Kedia Vishwa Bharati,<br>Kathmandu, Nepal</li><br>
+        <li><b><u>Under Graduation</u> (Bachelors in Computer Application)</b> Ramaiah Institute of Business Studies,<br>Bengaluru, Karnataka</li>        
+      </ol>
+      
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <div class="project-content">
+      <h1><br><br><u>My Projects:</u></h1>
+      <br><br><ol type="1">
+        <li><b><u>MED-MINDERS:</u> The Pharma-Handling Tool</b><br><br><p>This project is developed using Visual Studio 2019 as front end and back-end is MS SQL Server.
+          
+          
+        In this project, the MED-MINDER acts as a middle man of supply chain which connects small vendor or pharmacy to Big Medicines Manufacturing Companies to provide directly stock to them with our digital pharmacy management system.</p></li><br><br>
+        <li><b>Encrypted Data Stored Over Cloud Storage</b><br><br><p>This project is developed using HTML, CSS and javascript as front end and back-end is My SQL. In this project, the data that is stored is in encrypted form. If the user wants to access the data, a decryption key is sent through e-mail. After which the user has to enter the decryption key to access the data.</p></li>
+           
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-content">
+      <h1><br><br><u>Contact Me:</u></h1>
+      <div class="container">
+        <form class="form">
+          <label for="first">First Name</label>
+          <input type="text" name="first" placeholder="First Name" ><br>
+          <label for="last">Last Name</label>
+          <input type="text" name="last" placeholder="Last Name" ><br>
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="E-mail" ><br>
+          <label for="number">Mobile Number</label>
+          <input type="number" name="number" placeholder="Mobile Number" ><br>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="" cols="50" rows="5" placeholder="Enter message here"></textarea><br>
+          <button class="button" type="submit" onclick="myFunction()">Send Message</button> 
+
+        </form>
+        
+      </div>
+      <br><div class="mycontact"><b>My Contact Details:</b><br><br>
+        Muskan Gupta<br>
+        Mobile No.: 9876543210<br>
+        <a href="https://mail.google.com/"> muskangupta@gmail.com </a>
+      </div>
+    </div>
+           
+    </div>
+  </section>
+</body>
+</html>

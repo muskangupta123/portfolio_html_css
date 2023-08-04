@@ -1,0 +1,129 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 10%;
+  background-color:darkblue;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo{
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  text-decoration: none;
+
+}
+
+.navbar a{
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-weight: 100;
+  margin-left: 35px;
+}
+
+.navbar a:hover{
+  color: black;
+}
+
+.home{
+height: 100vh;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 100px;
+margin-left: 90px;
+}
+
+
+.home-image{
+  margin-top: 100px;
+width: 500px;
+height: 500px;
+background: darkblue;
+align-items: center;
+
+}
+
+.home-image img{
+  position: relative;
+  margin-top: 100px;
+  margin-left: 130px;
+  
+}
+.home-content{
+font-size: 30px;
+text-align: right;
+
+}
+
+.about-content{
+   padding-top: 50px;
+   padding-left: 120px;
+   padding-bottom: 120px;
+   padding-right: 120px;
+  
+}
+
+.education-content{
+   
+  padding: 120px;
+
+}
+
+.project-content{
+   
+  padding: 120px;
+
+}
+
+.contact-content{
+
+  padding: 50px;
+  justify-content: center;
+  box-sizing: border-box;
+  }
+
+.container{
+margin: 50%;
+padding: 20px 30px;
+background: darkblue;
+margin:30px 0px;
+font-size: 16px;
+color: white; 
+}
+
+.form input{
+  display: block;
+  height: 40px;
+  width: 30%;
+}
+
+.form textarea{
+  display: block;
+}
+
+.button{
+  height: 40px;
+}
+
+.mycontact{
+  font-size: 14px;
+  font-style: italic;
+}
